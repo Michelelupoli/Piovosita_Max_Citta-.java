@@ -103,14 +103,7 @@ public class PiovositàCittà {
 		while (flag == 0);
 		
 		//Stampa pivosità massima con relativo mese e città
-		for (int i=0; i<NCITTA; i++)
-		{
-			for (int j=0; j<NMESI; j++)
-			{
-				System.out.println("Città: "+ricerca+".   Piovosità massima: "+max+"%."+"   Mese piovosità: "+mese+".");
-				j = NMESI; i = NCITTA;
-			}
-		}
+		System.out.println("Città: "+ricerca+".   Piovosità massima: "+max+"%."+"   Mese piovosità: "+mese+".");
 		return;
 	}
 }
